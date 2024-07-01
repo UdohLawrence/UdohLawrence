@@ -1,8 +1,8 @@
 # Hi, I am Lawrence A. Udoh
 
-##I am a Software Engineer
+## I am a Software Engineer
 
-#####I love to learn, grow and explore. I develop software for the web, mobile and devices. I’m currently looking to collaboorate with clients & work with agencies worldwide
+##### I love to learn, grow and explore. I develop software for the web, mobile and devices. I’m currently looking to collaboorate with clients & work with agencies worldwide
 <!--
 **UdohLawrence/UdohLawrence** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

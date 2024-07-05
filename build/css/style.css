@@ -762,6 +762,10 @@ video {
   width: 3rem;
 }
 
+.w-8 {
+  width: 2rem;
+}
+
 .min-w-\[320px\] {
   min-width: 320px;
 }
@@ -1068,6 +1072,11 @@ video {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {

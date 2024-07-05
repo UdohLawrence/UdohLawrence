@@ -130,7 +130,7 @@
         </h2>
       </section>
       <hr class="mx-auto h-0.5 bg-slate-400 w-1/2" />
-      <section id="contact" class="mx-auto max-w-5xl p-6 items-center gap-8 mt-0 mb-12">
+      <section id="contact" class="mx-auto max-w-5xl p-6 my-6">
         <h2
           class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-800"
         >
@@ -138,69 +138,75 @@
         </h2>
 
         <div
-          class="flex flex-col sm:flex-row gap-5 sm:gap-10 items-center justify-between"
+          class="flex flex-col sm:flex-row mx-auto items-center justify-between"
         >
-          <div class="flex mx-auto w-1/2 flex-col gap-6">
-            <a href="https://www.linkedin.com/in/lawrenceaudoh" class="inline-block">
+          <div class="flex mx-auto w-full sm:w-1/2 flex-col">
+            <a href="https://www.linkedin.com/in/lawrenceaudoh" class="block">
               <button
-                class="bg-indigo-600 flex justify-evenly px-3 py-2 overflow-hidden rounded-md text-slate-200 gap-2 min-w-48"
+                class="bg-indigo-600 flex justify-between items-center px-3 py-2 rounded-md text-slate-200 min-w-48 mx-auto"
               >
-                <span class="text-slate-100 font-semibold">LinkedIn</span>
+                <p class="text-slate-100 font-semibold">LinkedIn</p>
                 <img
                   src="./images/linkedin.svg"
                   alt="LinkedIn Logo"
                   class="w-6"
                 />
               </button>
-              <span class="text-slate-500 mt-5">lawrenceaudoh</span>
+              <p class="text-slate-500 mt-0 text-center">lawrenceaudoh</p>
             </a>
-            <a href="https://x.com/LawrenceAUdoh">
+            <a href="https://www.twitter.com/LawrenceAUdoh" class="block">
               <button
-                class="bg-indigo-600 flex justify-evenly px-3 py-2 overflow-hidden rounded-md text-slate-200 gap-2 min-w-48"
+                class="bg-indigo-600 flex justify-between items-center px-3 py-2 mt-4 rounded-md text-slate-200 min-w-48 mx-auto"
               >
-                <span class="text-slate-100 font-semibold">Twitter</span>
+                <p class="text-slate-100 font-semibold">Twitter</p>
                 <img
                   src="./images/twitter.svg"
-                  alt="Twitter Logo"
+                  alt="LinkedIn Logo"
                   class="w-6"
                 />
               </button>
-              <span class="text-slate-500 mt-5">@LawrenceAUdoh</span>
+              <p class="text-slate-500 mt-0 text-center">@LawrenceAUdoh</p>
             </a>
-            <a href="https://t.me/EkomobongLawrence">
+            <a href="https://www.t.me/EkomobongLawrence" class="block">
               <button
-                class="bg-indigo-600 flex justify-evenly px-3 py-2 overflow-hidden rounded-md text-slate-200 gap-2 min-w-48"
+                class="bg-indigo-600 flex justify-between items-center px-3 py-2 rounded-md text-slate-200 mt-4 min-w-48 mx-auto"
               >
-                <span class="text-slate-100 font-semibold">Telegram</span>
+                <p class="text-slate-100 font-semibold">Telegram</p>
                 <img
                   src="./images/telegram.svg"
-                  alt="Telegram Logo"
+                  alt="LinkedIn Logo"
                   class="w-6"
                 />
               </button>
-              <span class="text-slate-500 mt-5">@EkomobongLawrence</span>
+              <p class="text-slate-500 mt-0 text-center">@EkomobongLawrence</p>
             </a>
           </div>
           <div
-            class="w-1/2 flex flex-col items-center justify-between p-24 bg-slate-100"
+            class="w-full sm:w-1/2 flex flex-col items-center justify-center gap-10 mx-auto"
           >
-            <a href="mailto:lawrenceaudoh@gmail.com">
-              <span class="flex items-center justify-evenly">
-                <p>Gmail</p>
-              <img src="./images/gmail.svg" alt="Gmail" class="w-12">
-            </span>
-            </a>
-            <a href="mailto:lawrenceaudoh@outlook.com">
-              <span class="flex items-center justify-evenly">
-                <p>Outlook</p>
-                <img src="./images/outlook.svg" alt="Outlook" class="w-12">
-              </span>
-            </a>
+            <div class="flex items-center justify-center gap-8 my-8">
+              <a href="mailto:lawrenceaudoh@gmail.com">
+                <span class="flex items-center justify-evenly">
+                  <p>Gmail</p>
+                  <img src="./images/gmail.svg" alt="Gmail" class="w-12" />
+                </span>
+              </a>
+              <a href="mailto:lawrenceaudoh@outlook.com">
+                <span class="flex items-center justify-evenly">
+                  <p>Outlook</p>
+                  <img src="./images/outlook.svg" alt="Outlook" class="w-12" />
+                </span>
+              </a>
+            </div>
+            <h4 class="text-2xl text-center font-bold">Let's Discuss</h4>
           </div>
         </div>
       </section>
       <hr class="mx-auto h-0.5 bg-slate-400 w-1/2" />
-      <section id="skills" class="mx-auto max-w-5xl p-6 items-center gap-8 mt-0 mb-12">
+      <section
+        id="skills"
+        class="mx-auto max-w-5xl p-6 items-center gap-8 mt-0 mb-12"
+      >
         <h2
           class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-800"
         >
@@ -208,7 +214,10 @@
         </h2>
         <div class="flex flex-col">
           <h3 class="text-2xl font-semibold my-3">Technical</h3>
-          <section id="tech" class="flex flex-col sm:flex-row">
+          <section
+            id="tech"
+            class="flex flex-col sm:flex-row sm:justify-center"
+          >
             <div class="w-1/2">
               <ul>
                 <li>Business Intelligence</li>
@@ -224,28 +233,57 @@
                 <li>Version Control</li>
               </ul>
             </div>
-            <div class="p-3 w-1/2">
-              <span class="bg-indigo-500 text-white py-2 px-3 mr-2 mb-2 rounded-sm">HTML5</span>
-              <span class="bg-indigo-500 text-white py-2 px-3 rounded-sm">CSS</span>
-              <span class="bg-indigo-500 text-white py-2 px-3 rounded-sm">TailwindCSS</span>
-              <span class="bg-indigo-500 text-white py-2 px-3 rounded-sm">Bootstrap</span>
-              <span class="bg-indigo-500 text-white py-2 px-3 rounded-sm">JavaScript</span>
-              <span class="bg-indigo-500 text-white py-2 px-3 rounded-sm">Typescript</span>
-              <span class="bg-indigo-500 text-white py-2 px-3 rounded-sm">Python</span>
-              <span class="bg-indigo-500 text-white py-2 px-3 rounded-sm">Excel</span>
-              <span class="bg-indigo-500 text-white py-2 px-3 rounded-sm">Power BI</span>
-              <span class="bg-indigo-500 text-white py-2 px-3 rounded-sm">git</span>
-              <span class="bg-indigo-500 text-white py-2 px-3 rounded-sm">GitHub</span>
-              <span class="bg-indigo-500 text-white py-2 px-3 rounded-sm">C#</span>
-              <span class="bg-indigo-500 text-white py-2 px-3 rounded-sm">SQL</span>
-              <span class="bg-indigo-500 text-white py-2 px-3 rounded-sm">WordPress</span>
-              <span class="bg-indigo-500 text-white py-2 px-3 rounded-sm">MS-SQL</span>
-              <span class="bg-indigo-500 text-white py-2 px-3 rounded-sm">MySQL</span>
-
+            <div class="p-4 sm:p-6 w-1/2">
+              <button class="bg-indigo-500 text-white py-2 px-3 rounded-sm">
+                HTML5
+              </button>
+              <button class="bg-indigo-500 text-white py-2 px-3 rounded-sm">
+                CSS
+              </button>
+              <button class="bg-indigo-500 text-white py-2 px-3 rounded-sm">
+                TailwindCSS
+              </button>
+              <button class="bg-indigo-500 text-white py-2 px-3 rounded-sm">
+                Bootstrap
+              </button>
+              <button class="bg-indigo-500 text-white py-2 px-3 rounded-sm">
+                JavaScript
+              </button>
+              <button class="bg-indigo-500 text-white py-2 px-3 rounded-sm">
+                Typescript
+              </button>
+              <button class="bg-indigo-500 text-white py-2 px-3 rounded-sm">
+                Python
+              </button>
+              <button class="bg-indigo-500 text-white py-2 px-3 rounded-sm">
+                Excel
+              </button>
+              <button class="bg-indigo-500 text-white py-2 px-3 rounded-sm">
+                Power BI
+              </button>
+              <button class="bg-indigo-500 text-white py-2 px-3 rounded-sm">
+                git
+              </button>
+              <button class="bg-indigo-500 text-white py-2 px-3 rounded-sm">
+                GitHub
+              </button>
+              <button class="bg-indigo-500 text-white py-2 px-3 rounded-sm">
+                C#
+              </button>
+              <button class="bg-indigo-500 text-white py-2 px-3 rounded-sm">
+                SQL
+              </button>
+              <button class="bg-indigo-500 text-white py-2 px-3 rounded-sm">
+                WordPress
+              </button>
+              <button class="bg-indigo-500 text-white py-2 px-3 rounded-sm">
+                MS-SQL
+              </button>
+              <button class="bg-indigo-500 text-white py-2 px-3 rounded-sm">
+                MySQL
+              </button>
             </div>
-            <div>
-
-            </div>
+            <div></div>
           </section>
           <h3>Languages</h3>
           <section id="lang"></section>

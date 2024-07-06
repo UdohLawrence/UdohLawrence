@@ -24,8 +24,8 @@
         </a>
         <div>
           <button
-            id="mobile-open-button"
-            class="text-3xl md:hidden focus:outline-none"
+            id="hamburger-button"
+            class="text-3xl md:hidden cursor-pointer relative w-8 h-8 focus:outline-none"
           >
             &#9776;
           </button>
@@ -49,7 +49,7 @@
           >
         </nav>
       </section>
-      <section id="mobile-menu" class="absolute top-0 bg-indigo-500 opacity-90 text-slate-200 w-full text-3xl flex-col justify-center hidden origin-top animate-open-menu">
+      <section id="mobile-menu" class="absolute top-0 bg-white opacity-90 text-indigo-500 w-full text-3xl flex-col justify-center hidden origin-top animate-open-menu">
         <button class="text-6xl self-end px-3">&times;</button>
         <nav class="flex flex-col min-h-screen items-center py-8" aria-label="mobile-menu">
           <a href="#home" class="w-full text-center py-3 hover:opacity-90">Home</a>
@@ -460,5 +460,6 @@
       </section>
       <hr class="mx-auto h-0.5 bg-slate-400 w-1/2" />
     </main>
+    <script src="./js/main.js"></script>
   </body>
 </html>

@@ -39,7 +39,7 @@ const About = () => {
             </div>
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
               <p className="text-lg font-medium italic text-foreground">
-                "Good software should work well, look great, and be a joy to work on - <strong>I hold myself to that standard</strong>."
+                "Good software should work well, look great, and be a joy to work on - <strong className="text-xl font-bold">I hold myself to that standard</strong>."
               </p>
             </div>
           </div>

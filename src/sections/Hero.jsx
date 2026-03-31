@@ -73,9 +73,18 @@ const Hero = () => {
             <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
               <span className="text-sm text-muted-foreground">Follow: </span>
               {[
-                { icon: Github, href: "#" },
-                { icon: Linkedin, href: "#" },
-                { icon: Twitter, href: "#" },
+                {
+                  icon: Github,
+                  href: "https://github.com/UdohLawrence/"
+                },
+                {
+                  icon: Linkedin,
+                  href: "https://www.linkedin.com/in/lawrenceaudoh/"
+                },
+                {
+                  icon: Twitter,
+                  href: "https://x.com/0xLAUdoh"
+                },
               ].map((social, index) => (
                 <a
                   key={index}
@@ -121,7 +130,7 @@ const Hero = () => {
         {/* Skills Section */}
         <SkillsSection />
       </div>
-      <ScrollToNextSection nextSection="about"/>
+      <ScrollToNextSection nextSection="about" />
     </section>
   );
 };

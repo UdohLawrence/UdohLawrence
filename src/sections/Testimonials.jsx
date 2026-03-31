@@ -76,7 +76,7 @@ const Testimonials = () => {
 
               <div className="flex gap-2">
                 {testimonials.map((_, idx) => (
-                  <button className={`w-2 h-2 rounded-full transition-all duration-300 ${idx === activeIdx ? "w-8 bg-primary" : "bg-muted-foreground/30 hover:bg-muted-foreground/50"}`} onClick={() => setActiveIdx(idx)}/>
+                  <button key={idx} className={`w-2 h-2 rounded-full transition-all duration-300 ${idx === activeIdx ? "w-8 bg-primary" : "bg-muted-foreground/30 hover:bg-muted-foreground/50"}`} onClick={() => setActiveIdx(idx)}/>
                 ))}
               </div>
 

@@ -16,7 +16,9 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
   return (
-    <header className={`fixed top-0 left-0 right-0 transition-all duration-500 ${isScrolled ? "glass-strong py-3" : "bg-transparent py-5"} z-50`}>
+    <header
+      className={`fixed top-0 left-0 right-0 transition-all duration-500 ${isScrolled ? "glass-strong py-3" : "bg-transparent py-5"} z-50`}
+    >
       <nav className="container mx-auto px-6 flex items-center justify-between">
         <a
           href="#"
@@ -40,7 +42,9 @@ const Navbar = () => {
         </div>
         {/* CTA Button */}
         <div className="hidden md:block">
-          <Button size="sm">Let's Collaborate</Button>
+          <a href="#contact">
+            <Button size="sm">Let's Collaborate</Button>
+          </a>
         </div>
         {/* Mobile Menu Button */}
         <button
@@ -64,7 +68,11 @@ const Navbar = () => {
                 {link.label}
               </a>
             ))}
-            <Button onClick={() => setIsMobileMenuOpen(false)}>Let's Collaborate</Button>
+            <a href="#contact" onClick={() => setIsMobileMenuOpen(false)}>
+              <Button>
+                Let's Collaborate
+              </Button>
+            </a>
           </div>
         </div>
       )}

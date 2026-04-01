@@ -1,4 +1,5 @@
 import { Mail, MapPin, Phone } from "lucide-react";
+import {FaWhatsapp} from "react-icons/fa";
 
 export const contactInfo = [
   {
@@ -6,6 +7,12 @@ export const contactInfo = [
     label: "Email",
     value: "lawrenceaudoh@gmail.com",
     href: "mailto:lawrenceaudoh@gmail.com"
+  },  
+  {
+    icon: FaWhatsapp,
+    label: "WhatsApp",
+    value: "+234 708 9457173",
+    href: "https://wa.me/2347089457173"
   },
   {
     icon: Phone,

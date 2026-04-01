@@ -15,7 +15,7 @@ const About = () => {
             <h2 className="text-4xl md:text-5xl font-bold leading-tight animate-fade-in animation-delay-100 text-secondary-foreground">
               Turning ideas into polished,
               <span className="font-serif italic font-normal text-white">
-                &nbsp; full-stack products that actually ship.
+                &nbsp; full-stack products that ship.
               </span>
             </h2>
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
@@ -23,7 +23,7 @@ const About = () => {
                 I am a software engineer with 3+ years of experience building
                 digital products that people actually use. What started as
                 curiosity about how the web works has grown into a strong
-                foundation in modern frontend development.
+                foundation in modern fullstack development.
               </p>
               <p>
                 I work primarily with React, Next.js, and TypeScript — across
@@ -39,7 +39,7 @@ const About = () => {
             </div>
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
               <p className="text-lg font-medium italic text-foreground">
-                "Good software should work well, look great, and be a joy to work on - <strong className="text-xl font-bold">I hold myself to that standard</strong>."
+                "Good software should work well, look great, and be a joy to maintain - <strong className="text-xl font-bold italic">I hold myself to these standards</strong>."
               </p>
             </div>
           </div>

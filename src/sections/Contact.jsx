@@ -76,7 +76,7 @@ const Contact = () => {
           </p>
         </div>
         {/* Contact Form */}
-        <div className="grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
+        <div className="grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto px-3">
           <div className="glass p-8 rounded-3xl border border-primary/30 animate-fade-in animation-delay-300">
             <form onSubmit={handleSubmit} className="space-y-6 px-3">
               <div>

@@ -64,10 +64,14 @@ const Hero = () => {
             {/* CTAs */}
             <div className="flex flex-col md:flex-row items-center justify-between gap-4 animate-fade-in animation-delay-300">
               <Button size="lg">
-                Contact Me <ArrowRight className="w-5 h-5" />
+                <a href="#contact" className="flex items-center gap-2">
+                  Contact Me <ArrowRight className="w-5 h-5" />
+                </a>
               </Button>
               <AnimatedBorderButton>
-                <Download className="w-5 h-5" /> Download CV
+                <a href="/UdohLawrenceCV.pdf" download="/UdohLawrenceCV.pdf" className="flex items-center gap-2">
+                  <Download className="w-5 h-5" /> Download CV
+                </a>
               </AnimatedBorderButton>
             </div>
             <div className="flex items-center gap-4 animate-fade-in animation-delay-400">

@@ -14,8 +14,8 @@ export const projects = [
     image: "/projects/portfolio.png",
     altText: "Portfolio",
     tags: ["JavaScript", "NextJS", "React", "NodeJS", "Typescript", "TailwindCSS"],
-    link: "#",
-    github: "#"
+    link: "https://www.udohlawrence.vercel.app",
+    github: "https://github.com/UdohLawrence/UdohLawrence"
   },
   {
     title: "E-Commerce Platform",

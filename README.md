@@ -1,6 +1,6 @@
 # Hi, I'm Lawrence Udoh 👋
 
-### Mathematics Teacher | Electrical & Electronic Engineer | Future Robotics Researcher | .NET Developer
+### Mathematics Teacher | Electrical & Electronic Engineer | Future Robotics Researcher | .NET | NodeJS
 
 I am an Electrical & Electronic Engineering graduate from Nigeria with a passion for solving real-world problems through technology, education, automation, and intelligent systems.
 
@@ -39,6 +39,7 @@ My long-term goal is to contribute to research and innovation in Robotics, Intel
 ## 🛠️ Tech Stack
 
 ### Languages
+
 - C#
 - TypeScript
 - JavaScript
@@ -46,18 +47,25 @@ My long-term goal is to contribute to research and innovation in Robotics, Intel
 - SQL
 
 ### Backend
+
 - ASP.NET Core
+- NodeJS (EspressJS, NestJS)
 - REST APIs
 - Entity Framework Core
+- PrismaORM
 - PostgreSQL
+- MongoDB
+- MySQL
 
 ### Frontend
+
 - Next.js
 - React
 - TypeScript
 - Tailwind CSS
 
 ### Tools
+
 - Git
 - GitHub
 - Linux
@@ -70,14 +78,20 @@ My long-term goal is to contribute to research and innovation in Robotics, Intel
 ## 📚 Education
 
 ### B.Eng. Electrical & Electronic Engineering
+
 Second Class Upper Division
 
 ### Post Graduate Diploma in Education (PGDE)
+
 National Teachers' Institute
 
-**Research Project**
+### Research Projects
 
 > The Influence of Metacognitive Language in Teacher Explanations on Students' Self-Regulated Learning in Mathematics in Ikot Ekpene Education Zone
+>
+> Simulation of a Hybrid Electric Vehicle, using MATLAB/Simulink.
+>
+> Construction of a 1.5HP DC Motor.
 
 ---
 
@@ -114,15 +128,19 @@ I am particularly interested in:
 ## 📌 Featured Projects
 
 ### Full-Stack Web Applications
+
 Applications built with ASP.NET Core, Next.js, TypeScript, and PostgreSQL.
 
 ### STEM Education Resources
+
 Curriculum materials, lesson notes, and classroom projects for coding and mathematics education.
 
 ### Robotics Learning Projects
+
 Experiments and projects documenting my journey into robotics, ROS, automation, and intelligent systems.
 
 ### Open Source Contributions
+
 Projects focused on learning, collaboration, and continuous improvement.
 
 ---
@@ -161,9 +179,9 @@ Research & Graduate Studies
 
 ## 📫 Connect With Me
 
-- GitHub: https://github.com/UdohLawrence
-- LinkedIn: https://linkedin.com/in/lawrenceaudoh
-- Email: lawrenceaudoh@gmail.com
+- GitHub: <https://github.com/UdohLawrence>
+- LinkedIn: <https://linkedin.com/in/lawrenceaudoh>
+- Email: <lawrenceaudoh@gmail.com>
 
 ---
 
@@ -176,6 +194,6 @@ Research & Graduate Studies
 
 ---
 
-### Thanks for visiting my profile!
+### Thanks for visiting my profile
 
 If you're interested in robotics, software engineering, STEM education, research, or collaboration, feel free to connect.
